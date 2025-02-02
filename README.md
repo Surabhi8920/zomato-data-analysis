@@ -3,14 +3,15 @@
 This project focuses on analyzing Zomato restaurant data using SQL to derive Key Insights & Performance Statistics (KIPS). The analysis includes restaurant ratings, cuisine popularity, cost trends, delivery options, and more.
 
 📂 Dataset
-The dataset contains various details about restaurants, including:
+📂 Dataset Details
+The dataset includes:
 
-Ratings (customer reviews, rating distribution)
-Cuisines (popular cuisines, diversity)
-Cost Analysis (price trends, affordability)
-Delivery & Table Availability (service options)
-Geographical Insights (locations, countries, cities)
-User Engagement (votes, reviews)
+Restaurant Information: Name, location, country, city
+Ratings & Reviews: Customer ratings, votes
+Cuisine Types: Popular cuisines, diversity
+Cost Analysis: Price range, currency, Average cost for two people
+Delivery & Booking: Table availability, online order option
+
 ✨ Key Insights
 ✔️ Top-rated restaurants and their cuisine types 📈
 ✔️ Most affordable and premium restaurants 💰
@@ -18,6 +19,24 @@ User Engagement (votes, reviews)
 ✔️ Average cost for two people across different locations 🍽️
 ✔️ Table booking vs. delivery trends 🚀
 ✔️ Cuisine distribution and popularity 🍕
+
+ Key Questions Answered
+Question	Insight Derived
+(1) Which country has the most Zomato-listed restaurants?	                          
+ANS:- 🇮🇳 India leads, followed by 🇺🇸 USA and 🇦🇪 UAE.
+(2) What are the most popular cuisines?
+ANS:-North Indian, Chinese, Italian, and Fast Food dominate.
+(3)What is the average cost for two in different countries?	
+ANS:-Varies significantly; India has the lowest avg. cost, UAE & USA are higher.
+(4)How do ratings impact restaurant popularity?	
+ANS:-Higher-rated restaurants attract more votes and engagement.
+(5)What is the trend for online orders vs. table bookings?
+ANS:-Online orders are more preferred than table bookings.
+(6)Which city has the most premium restaurants?	
+Dubai and New York have the highest number of fine-dining spots.
+
+
+
 
 🔧 Tools Used
 SQL (for querying and analysis)
